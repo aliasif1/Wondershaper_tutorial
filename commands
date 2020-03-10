@@ -1,0 +1,14 @@
+1. Get Interface name
+ifconfig
+
+2. Limit download bandwidth
+sudo wondershaper -a ens0 -d 4048
+
+3. Limit upload bandwidth
+sudo wondershaper -a ens0 -u 4048
+
+4. Clear the limitations
+sudo wondershaper -ca ens0
+
+5. Get interface status 
+sudo wondershaper -sa ens0
